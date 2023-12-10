@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: rgba(212, 220, 226, 0.315);
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.addNewUserContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.headerComponent {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 2px;
+}
+
+main {
+  background-image: url("../assets/noel.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Afacad", sans-serif;
+}
+
